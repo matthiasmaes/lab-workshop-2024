@@ -1,0 +1,77 @@
+services:
+  code_caper:
+    build:
+      context: ./Code Caper
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+
+  code_conundrum:
+    build:
+      context: ./Code Conundrum
+      dockerfile: Dockerfile
+    ports:
+      - "3001:80"
+
+  console_capers:
+    build:
+      context: ./Console Capers
+      dockerfile: Dockerfile
+    ports:
+      - "3002:80"
+
+  cookie_crumble_conundrum:
+    build:
+      context: ./Cookie Crumble Conundrum
+      dockerfile: Dockerfile
+    ports:
+      - "3003:80"
+
+  cookie_monster_mayham:
+    build:
+      context: ./Cookie Monster Mayhem
+      dockerfile: Dockerfile
+    ports:
+      - "3004:80"
+
+  directory_dilemma:
+    build:
+      context: ./Directory Dilemma
+      dockerfile: Dockerfile
+    ports:
+      - "3005:80"
+
+  object_odyssey:
+    build:
+     context: ./Object Odyssey
+     dockerfile: Dockerfile
+    ports:
+      - "3006:80"
+
+  password_pandemonium:
+    build:
+      context: ./Password Pandemonium
+      dockerfile: Dockerfile
+    ports:
+      - "3007:80"
+
+  post_body_party:
+    build:
+      context: ./Post Body Party
+      dockerfile: Dockerfile
+    ports:
+      - "3008:80"
+
+  querystring_quest:
+    build:
+      context: ./Querystring Quest
+      dockerfile: Dockerfile
+    ports:
+      - "3009:80"
+
+  source_code_shenanigans:
+    build:
+      context: ./Source Code Shenanigans
+      dockerfile: Dockerfile
+    ports:
+      - "3010:80"
