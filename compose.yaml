@@ -3,6 +3,7 @@ services:
     build:
       context: ./Code Caper
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "3000:80"
 
@@ -10,6 +11,7 @@ services:
     build:
       context: ./Code Conundrum
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "3001:80"
 
@@ -17,6 +19,7 @@ services:
     build:
       context: ./Console Capers
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "3002:80"
 
@@ -24,6 +27,7 @@ services:
     build:
       context: ./Cookie Crumble Conundrum
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "3003:80"
 
@@ -31,6 +35,7 @@ services:
     build:
       context: ./Cookie Monster Mayhem
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "3004:80"
 
@@ -38,6 +43,7 @@ services:
     build:
       context: ./Directory Dilemma
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "3005:80"
 
@@ -45,6 +51,7 @@ services:
     build:
      context: ./Object Odyssey
      dockerfile: Dockerfile
+    restart: always
     ports:
       - "3006:80"
 
@@ -52,6 +59,7 @@ services:
     build:
       context: ./Password Pandemonium
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "3007:80"
 
@@ -59,6 +67,7 @@ services:
     build:
       context: ./Post Body Party
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "3008:80"
 
@@ -66,6 +75,7 @@ services:
     build:
       context: ./Querystring Quest
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "3009:80"
 
@@ -73,5 +83,6 @@ services:
     build:
       context: ./Source Code Shenanigans
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "3010:80"
